@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #edeae5;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 15px 0 0 0;
+}
+
+span {
+  width: 65%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: 'Bebas Neue', cursive;
+}
+
+nav a:hover {
+  color: #026670;
+}
+
+span {
+  color: black;
+  font-weight: 600;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  gap: 10px;
+  padding: 20px 0;
+
+}
+
+.grid-item {
+  background-color: #fce181;
+  padding: 20px;
+}
+
+.item1 {
+  grid-area: 1 / 1 / 4 / 4;
+
+}
+
+#main-photo {
+  grid-area: 1 / 1 / 4 / 4;
+  background-image: url("mainphoto.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  grid-area: 1 / 4 / 3 / 6;
+  /* font-family: 'Bebas Neue', cursive;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px; */
+}
+
+#quote {
+  display: flex;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  text-align: center;
+  padding: 10px;
+}
+
+.item3 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.photo {
+  /* grid-area: 3 / 4 / 4 / 5; */
+  background-image: url(photo2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+
+.item5 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.item6 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.item7 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.item8 {
+  grid-area: 5 / 1 / 8 / 2;
+}
+
+.item9 {
+  grid-area: 5 / 2 / 8 / 3;
+}
+
+.item10 {
+  grid-area: 5 / 3 / 8 / 4;
+}
+
+.item11 {
+  grid-area: 4 / 4 / 7 / 5;
+}
+
+.item12 {
+  grid-area: 4 / 5 / 6 / 6;
+}
+
+.item13 {
+  grid-area: 7 / 4 / 8 / 5;
+}
+
+.item14 {
+  grid-area: 6 / 5 / 8 / 6;
+}
+
+.text p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: #edeae5;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 25px;
+  top: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
